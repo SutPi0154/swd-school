@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="./css/app.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg border-bottom">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <i class="bi bi-journal-code fs-2"></i>
+        </a>
+        <div class="input-group w-25">
+          <span class="input-group-text bg-transparent bi-border-end-0">
+            <i class="bi bi-search bg-transparent fs-5"></i>
+          </span>
+          <input
+            type="text"
+            class="form-control border-start-0"
+            placeholder="Search Medium"
+          />
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">
+                <i class="bi bi-pencil-square fs-5"></i>
+                Write</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link btn btn-success rounded-pill text-white me-3"
+                href="login.html"
+                >sign In</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link btn btn-outline-success rounded-pill"
+                href="register.html"
+                >sign Up</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img src="./images/user.jpg" height="50" alt="" />
+              </a>
+              <ul class="dropdown-menu">
+                <li class=" "><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <section id="blog">
+        <div class="container">
+          <div class="row g-5 mt-5">
+            <div class="col-md-8">
+              <div class="row align-items-center g-3">
+                <div class="col-1">
+                  <img
+                    src="	https://miro.medium.com/fit/c/48/48/1*qi1DGKEF108hQWWraFKyRQ.png"
+                    alt=""
+                    class="rounded-circle w-100 d-block"
+                  />
+                </div>
+                <div class="col-6">
+                  <p class="mb-0 font-serif">Osama (Oisee) Ishtiaq</p>
+                  <p class="mb-0 font-serif small">Dec 14 · 4 min read ·</p>
+                </div>
+                <div class="col-4">
+                  <div class="text-end">
+                    <a
+                      href="#"
+                      class="text-decoration-none text-black-50 fs-5 pe-2"
+                    >
+                      <i class="bi bi-twitter"></i>
+                    </a>
+                    <a
+                      href="#"
+                      class="text-decoration-none text-black-50 fs-5 pe-2"
+                    >
+                      <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a
+                      href="#"
+                      class="text-decoration-none text-black-50 fs-5 pe-2"
+                    >
+                      <i class="bi bi-clipboard"></i>
+                    </a>
+                    <a
+                      href="#"
+                      class="text-decoration-none text-black-50 fs-5 pe-2"
+                    >
+                      <i class="bi bi-youtube"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-1">
+                  <a
+                    href="#"
+                    class="text-decoration-none text-black-50 fs-3 pe-2 align-self-end"
+                  >
+                    <i class="bi bi-bookmark-plus"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="font-serif">
+                <h2 class="my-5">I am switching from VS Code to Vim</h2>
+                <p class="lh-lg mb-4">
+                  Ever since I started programming professionally in 2015, I’ve
+                  heard a lot of nice things about VIM. People who use it swear
+                  by it’s efficiency and the productivity boost it provides. I
+                  too always thought Vim was cool but what prevented me from
+                  trying it was the learning curve. Aand with VS Code doing
+                  everything and then some for me, it felt like I never will.
+                </p>
+                <p class="lh-lg ">
+                  First off, I do not have any doubt that when it comes to the
+                  “raw” efficiency and speed of writing/editing code, Vim would
+                  make me much faster. However, I believe when it comes to
+                  programming, speed of typing is never the bottleneck but the
+                  speed of thinking is. Despite my personal opinion, I do want
+                  to try it for the next 30 days and see if I was missing out.
+                  But before doing that I do want to mention what kind of work I
+                  do and what I consider to be crucial for me in an editor.
+                </p>
+
+                <h4 class="my-4">What I do?</h4>
+                <p class="lh-lg mb-4">
+                  Well my work mostly consists of working with backend-services
+                  written in TypeScript. I usually have to open and work on
+                  multiple projects at once along with opening multiple terminal
+                  windows in different paths. There’s also lots of Tests and
+                  GraphQL code generation involved.
+                </p>
+                <h4 class="my-4">What is crucial for me in an editor?</h4>
+                <p class="lh-lg mb-4">
+                  Some of the things that I really appreciate in an editor are
+                  following.
+                </p>
+                <ul>
+                  <li class="mb-3">
+                    It should show me linting errors and warnings
+                  </li>
+                  <li class="mb-3">
+                    I should be able to easily track what buffers/files are open
+                    and switch between them quickly
+                  </li>
+                  <li class="mb-3">
+                    It should not get in my way when working so I can focus on
+                    the work
+                  </li>
+                  <li class="mb-3">Good integration with git are welcome</li>
+                  <li class="mb-3">
+                    It should support language server for typescript and
+                    features like ‘go to defination’, ‘find all references’
+                  </li>
+                  <li class="mb-3">Should support code formatting</li>
+                  <li class="mb-3">
+                    And finally it should be fast so I can keep multiple
+                    instances open without slowing down
+                  </li>
+                </ul>
+                <p class="lh-lg mb-4">
+                  Honestly, VS Code checks all these boxes for me. And it also
+                  has nice features that can really change one’s way of working
+                  like
+                </p>
+                <ul>
+                  <li class="mb-3">
+                    It enables you to directly work in docker containers using
+                    Dev Container extension or WSL Extension to work in linux
+                    environment if you are on windows and Remote Explorer
+                    extension for Ssh
+                  </li>
+                  <li class="mb-3">live share for pair programming</li>
+                  <li class="mb-3">
+                    Lots and lots of extension for almost all the languages
+                  </li>
+                  <li class="mb-3">Emmet and support for snippet extensions</li>
+                  <li class="mb-3">GitHub CoPilot extension</li>
+                  <li class="mb-3">GitHub CoPilot extension</li>
+                  <li class="mb-3">Extensions that have RestClients</li>
+                  <li class="mb-3">
+                    And much more which I don’t use but I can if I want with
+                    minimal setup required.
+                  </li>
+                </ul>
+                <p class="lh-lg mb-4">
+                  I’ve heard that using Vim makes you a better developer because
+                  with Vim, you have to work in the command line and you have to
+                  tweak the configurations and set it up yourself. You have to
+                  read the docs, you have to install plugins and make sure
+                  mappings are not conflicting. You get to learn how files and
+                  buffers work and how to use command line tools like grep to
+                  search your way through thousand of lines of code. Cool stuff
+                  for me indeed. So here starts my journey on December 8, 2022.
+                </p>
+                <h4 class="my-4">Initial Setup:</h4>
+                <p class="lh-lg ">
+                  4 So I installed NeoVim, followed some tutorials to enable
+                  some basic settings like relative line numbers, installed
+                  VimPlug for managing plugins, installed coc for language
+                  servers, some other extensions and NERDTree to make it
+                  similiar to VSCode. Here’s my init.vim for anyone interested:
+                  <br />
+                  https://github.com/osamaishtiaq/dev-settings/blob/main/init.vim
+                </p>
+                <h5 class="text-muted my-4">
+                  Below is what my current setup looks like
+                </h5>
+                <img src="./images/detail.webp" class="my-5 w-100" alt="" />
+                <p class="lh-lg ">
+                  4 Language server for typescript works nicely, almost as nice
+                  as VS code (almost). I’m happy to report that
+                  ‘go-to-defination’ and ‘find all references’ work nicely.
+                  Linting also appears to work as I can see errors count on
+                  bottom right corner of the status bar however it is not
+                  perfect because I rarely see information popup message on
+                  hover. For that I have to use messages command. I am also
+                  using Tmux for working with multiple terminal windows and I
+                  installed Iterm terminal because I heard it has better color
+                  support than macos default terminal. I’ve deleted VS Code and
+                  if all goes well, I might never have to install it again. 🤞🏽
+                </p>
+                <h4 class="my-4">Update (December 14, 2022):</h4>
+                <p class="lh-lg mb-4">
+                  I had to reinstall VS Code… Reason being how the buffers work
+                  in vim and not being able to find a fix at the moment.
+                  NERDTree doesn’t highlight what buffers are currently open and
+                  I couldn’t find a nice way to see what files have been
+                  modified just by looking at NERDTree or any other place. So
+                  instead of fully using Vim, I have now installed Vim extension
+                  for VS Code as a backup. I will try to use Vim but in case
+                  something just doesn’t work and I don’t have the time to fix
+                  it, I will temporarily revert to VS Code with Vim extension.
+                  More updates to follow.🤞🏽
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="mt-3 my-5">
+                <div class="row g-0">
+                  <div class="col-6">
+                    <h4 class="fw-bold">267K</h4>
+                    <p class="">Stories</p>
+                  </div>
+                  <div class="col-6">
+                    <h4 class="fw-bold">92K</h4>
+                    <p>Writers</p>
+                  </div>
+                </div>
+                <div class="user">
+                  <img
+                    src="https://miro.medium.com/fit/c/36/36/1*KwH2WmllTxzhbRYg3Yni-A@2x.jpeg"
+                    width="36"
+                    height="36"
+                    alt=""
+                  />
+                  <img
+                    alt="Yonatan Karp-Rudin"
+                    class="l dd bx nn pn hv"
+                    src="https://miro.medium.com/fit/c/36/36/1*xE5XDFNQ-TT1sXRy-EXj-w.jpeg"
+                    width="36"
+                    height="36"
+                  />
+                  <img
+                    alt="Vikram Gupta"
+                    class="l dd bx nn pn hv"
+                    src="https://miro.medium.com/fit/c/36/36/0*8TXgQvbu9doMZDEP"
+                    width="36"
+                    height="36"
+                  />
+                  <img
+                    alt="Soma"
+                    class="l dd bx nn pn hv"
+                    src="https://miro.medium.com/fit/c/36/36/1*ebn6gWVf6SZdt8-dDOpqvQ.png"
+                    width="36"
+                    height="36"
+                  />
+                  <img
+                    alt="Aravind Chowdary"
+                    class="l dd bx nn pn hv"
+                    src="https://miro.medium.com/fit/c/36/36/1*ixTqhMBeXLB7sAlDfC2icQ.jpeg"
+                    width="36"
+                    height="36"
+                  />
+                  <img
+                    alt="Tom Smykowski"
+                    class="l dd bx nn pn hv"
+                    src="https://miro.medium.com/fit/c/36/36/1*QBY4yLB-8qciSZmu9tYqpA.jpeg"
+                    width="36"
+                    height="36"
+                  />
+                  <img
+                    alt="Kacper Hernacki"
+                    class="l dd bx nn pn hv"
+                    src="https://miro.medium.com/fit/c/36/36/1*17VpCEkCeCG8d8nd3lSfVw@2x.jpeg"
+                    width="36"
+                    height="36"
+                  />
+                  <img
+                    alt="Dimterion"
+                    class="l dd bx nn pn hv"
+                    src="https://miro.medium.com/fit/c/36/36/1*SlmjyzYzl6Ii9UjmkVzn3A.png"
+                    width="36"
+                    height="36"
+                  />
+                </div>
+                <hr />
+
+                <div>
+                  <a href="#" class="text-decoration-none text-success small"
+                    >See More</a
+                  >
+                </div>
+              </div>
+              <div class="position-sticky" style="top: 30px">
+                <div class="realtive-topic mb-5">
+                  <p class="mt-5 my-3 fw-bold">Relative Topice</p>
+                  <div class="">
+                    <a
+                      href="#"
+                      class="btn btn-secondary rounded-pill mb-2 small"
+                    >
+                      Software Development
+                    </a>
+                    <a
+                      href="#"
+                      class="btn btn-secondary rounded-pill mb-2 small"
+                    >
+                      Java Script
+                    </a>
+                    <a
+                      href="#"
+                      class="btn btn-secondary rounded-pill mb-2 small"
+                    >
+                      Software Engineering
+                    </a>
+                    <a
+                      href="#"
+                      class="btn btn-secondary rounded-pill mb-2 small"
+                    >
+                      Python
+                    </a>
+                    <a
+                      href="#"
+                      class="btn btn-secondary rounded-pill mb-2 small"
+                    >
+                      Data Science
+                    </a>
+                    <a
+                      href="#"
+                      class="btn btn-secondary rounded-pill mb-2 small"
+                    >
+                      Web Development
+                    </a>
+                    <a
+                      href="#"
+                      class="btn btn-secondary rounded-pill mb-2 small"
+                    >
+                      React
+                    </a>
+                    <a
+                      href="#"
+                      class="btn btn-sm btn-secondary rounded-pill m-2 small"
+                    >
+                      Coding
+                    </a>
+                    <a
+                      href="#"
+                      class="btn btn-sm btn-secondary rounded-pill m-2 small"
+                    >
+                      Thenology
+                    </a>
+                  </div>
+                </div>
+                <div class="top-writers">
+                  <p class="fw-bold">Top Writers</p>
+                  <div class="writer mb-3">
+                    <div class="row g-2 align-items-center">
+                      <div class="col-2 align-self-lg-start">
+                        <div class="me-2">
+                          <img
+                            src="https://miro.medium.com/fit/c/32/32/0*u9Ha3uTCjEmW_3gn.gif"
+                            class="w-100 rounded-circle"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-7">
+                        <span class="fw-bold"> javinpaul</span>
+                        <p class="small text-truncate">
+                          I am Java programmer, blogger, working on Java,...
+                        </p>
+                      </div>
+                      <div class="col-3">
+                        <a href="#" class="btn btn-sm btn-success rounded-pill"
+                          >Follow</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="writer mb-3">
+                    <div class="row g-2 align-items-center">
+                      <div class="col-2 align-self-lg-start">
+                        <div class="me-2">
+                          <img
+                            src="https://miro.medium.com/fit/c/32/32/0*u9Ha3uTCjEmW_3gn.gif"
+                            class="w-100 rounded-circle"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-7">
+                        <span class="fw-bold"> javinpaul</span>
+                        <p class="small text-truncate">
+                          I am Java programmer, blogger, working on Java,...
+                        </p>
+                      </div>
+                      <div class="col-3">
+                        <a href="#" class="btn btn-sm btn-success rounded-pill"
+                          >Follow</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="writer mb-3">
+                    <div class="row g-2 align-items-center">
+                      <div class="col-2 align-self-lg-start">
+                        <div class="me-2">
+                          <img
+                            src="https://miro.medium.com/fit/c/32/32/0*u9Ha3uTCjEmW_3gn.gif"
+                            class="w-100 rounded-circle"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-7">
+                        <span class="fw-bold"> javinpaul</span>
+                        <p class="small text-truncate">
+                          I am Java programmer, blogger, working on Java,...
+                        </p>
+                      </div>
+                      <div class="col-3">
+                        <a href="#" class="btn btn-sm btn-success rounded-pill"
+                          >Follow</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="writer mb-3">
+                    <div class="row g-2 align-items-center">
+                      <div class="col-2 align-self-lg-start">
+                        <div class="me-2">
+                          <img
+                            src="https://miro.medium.com/fit/c/32/32/0*u9Ha3uTCjEmW_3gn.gif"
+                            class="w-100 rounded-circle"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-7">
+                        <span class="fw-bold"> javinpaul</span>
+                        <p class="small text-truncate">
+                          I am Java programmer, blogger, working on Java,...
+                        </p>
+                      </div>
+                      <div class="col-3">
+                        <a href="#" class="btn btn-sm btn-success rounded-pill"
+                          >Follow</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="writer mb-3">
+                    <div class="row g-2 align-items-center">
+                      <div class="col-2 align-self-lg-start">
+                        <div class="me-2">
+                          <img
+                            src="https://miro.medium.com/fit/c/32/32/0*u9Ha3uTCjEmW_3gn.gif"
+                            class="w-100 rounded-circle"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-7">
+                        <span class="fw-bold"> javinpaul</span>
+                        <p class="small text-truncate">
+                          I am Java programmer, blogger, working on Java,...
+                        </p>
+                      </div>
+                      <div class="col-3">
+                        <a href="#" class="btn btn-sm btn-success rounded-pill"
+                          >Follow</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="writer mb-3">
+                    <div class="row g-2 align-items-center">
+                      <div class="col-2 align-self-lg-start">
+                        <div class="me-2">
+                          <img
+                            src="https://miro.medium.com/fit/c/32/32/0*u9Ha3uTCjEmW_3gn.gif"
+                            class="w-100 rounded-circle"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-7">
+                        <span class="fw-bold"> javinpaul</span>
+                        <p class="small text-truncate">
+                          I am Java programmer, blogger, working on Java,...
+                        </p>
+                      </div>
+                      <div class="col-3">
+                        <a href="#" class="btn btn-sm btn-success rounded-pill"
+                          >Follow</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="writer mb-3">
+                    <div class="row g-2 align-items-center">
+                      <div class="col-2 align-self-lg-start">
+                        <div class="me-2">
+                          <img
+                            src="https://miro.medium.com/fit/c/32/32/0*u9Ha3uTCjEmW_3gn.gif"
+                            class="w-100 rounded-circle"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-7">
+                        <span class="fw-bold"> javinpaul</span>
+                        <p class="small text-truncate">
+                          I am Java programmer, blogger, working on Java,...
+                        </p>
+                      </div>
+                      <div class="col-3">
+                        <a href="#" class="btn btn-sm btn-success rounded-pill"
+                          >Follow</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="my-4">
+                  <p class="text-black-50">Visit the archive</p>
+                  <div class="small">
+                    <a href="#" class="text-decoration-none m-1 text-black-50"
+                      >Help</a
+                    >
+                    <a href="#" class="text-decoration-none m-1 text-black-50"
+                      >Status</a
+                    >
+                    <a href="#" class="text-decoration-none m-1 text-black-50"
+                      >Writers</a
+                    >
+                    <a href="#" class="text-decoration-none m-1 text-black-50"
+                      >Blogs</a
+                    >
+                    <a href="#" class="text-decoration-none m-1 text-black-50"
+                      >Privacy</a
+                    >
+                    <a href="#" class="text-decoration-none m-1 text-black-50"
+                      >Terms</a
+                    >
+                    <a href="#" class="text-decoration-none m-1 text-black-50"
+                      >About</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

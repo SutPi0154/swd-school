@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <a href="https://google.com">google</a> -->
+    <div class="box">
+      <h1>Heading</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A iure ex ad
+        iste, harum saepe modi minima sint ab voluptatem officia omnis
+        necessitatibus perspiciatis reiciendis fuga impedit! Quisquam, expedita
+        eveniet!
+      </p>
+      <ul class="lists" style="border: 2px solid black; padding: 20px">
+        <li class="list-item" style="border: 2px solid black">Apple</li>
+        <li class="list-item">orange</li>
+        <li class="list-item">orange</li>
+        <li class="list-item">banana</li>
+      </ul>
+    </div>
+
+    <script>
+      const box = document.querySelector(".box");
+      const h1 = document.querySelector("h1");
+      const lists = document.querySelector(".lists");
+      //   const listItem = document.getElementsByClassName("list-item");
+
+      const eventList = ["click", "mouseover", "mouseout"];
+
+      eventList.forEach((eventList) => {
+        h1.addEventListener(eventList, (event) => {
+          console.log(event);
+        });
+      });
+
+      //   box.addEventListener("click", () => {
+      //     // location.href = "https://google.com";
+      //     console.log("U click box");
+      //   });
+      //   lists.addEventListener(
+      //     "click",
+      //     (event) => {
+      //       event.stopPropagation();
+
+      //       console.log("you click lists");
+      //     },
+      //     true
+      //   );
+      //   [...listItem].forEach((li) => {
+      //     li.addEventListener("click", () => console.log(li.innerText));
+      //     // console.log(li);
+      //   });
+    </script>
+  </body>
+</html>

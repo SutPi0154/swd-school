@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pj-2</title>
+    <link rel="stylesheet" href="./css/app.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg border-bottom">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <i class="bi bi-journal-code fs-2"></i>
+        </a>
+        <div class="input-group w-25">
+          <span class="input-group-text bg-transparent bi-border-end-0">
+            <i class="bi bi-search bg-transparent fs-5"></i>
+          </span>
+          <input
+            type="text"
+            class="form-control border-start-0"
+            placeholder="Search Medium"
+          />
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">
+                <i class="bi bi-pencil-square fs-5"></i>
+                Write</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link btn btn-success rounded-pill text-white me-3"
+                href="login.html"
+                >sign In</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-outline-success rounded-pill" href="register.html"
+                >sign Up</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img src="./images/user.jpg" height="50" alt="" />
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <section id="blog">
+        <div class="container">
+          <div class="row g-5 mt-5">
+            <div class="col-md-8">
+              <div class="d-flex align-items-center">
+                <div class="bg-secondary rounded-circle py-1 px-2 me-2">
+                  <i class="bi bi-tag-fill fs-4"></i>
+                </div>
+                <h1 class="fw-bold">Programming</h1>
+              </div>
+              <div class="mt-3">
+                <a href="" class="btn btn-success rounded-pill me-2 btn-sm"
+                  >Follow</a
+                >
+                <a href="" class="btn btn-outline-success rounded-pill btn-sm"
+                  >Start Writing</a
+                >
+              </div>
+
+              <div class="articles">
+                <article>
+                  <hr />
+                  <div class="writer mb-3 d-flex align-items-center mb-3">
+                    <img
+                      src="https://miro.medium.com/fit/c/24/24/0*QKiFQLh7K8REhewS"
+                      alt=""
+                      class="rounded-circle me-3"
+                      width="30"
+                    />
+                    <a href="#" class="text-decoration-none text-black me-3"
+                      >Alexis Mangin
+                    </a>
+                    <a href="#" class="text-decoration-none text-black-50 small"
+                      >1 day ago</a
+                    >
+                  </div>
+                  <div class="row">
+                    <div class="col-9">
+                      <div class="d-flex h-100 flex-column">
+                        <a
+                          href="#"
+                          class="h4 d-block text-dark text-decoration-none fw-bold"
+                          >Storing Payload in PE File</a
+                        >
+                        <a
+                          href="#"
+                          class="text-decoration-none text-black fw-lighter font-serif"
+                        >
+                          Introduction What is PE File? The PE file format is a
+                          data structure that contains the information necessary
+                          for the Windows OS loader to manage the wrapped
+                          executable code. A PE is a file format developed</a
+                        >
+                        <div
+                          class="d-flex align-items-center mt-auto justify-content-between"
+                        >
+                          <div class=" ">
+                            <a
+                              href="#"
+                              class="btn btn-secondary rounded-pill btn-sm"
+                              >programming</a
+                            >
+                            <span>4 min read</span>
+                          </div>
+                          <i class="bi bi-bookmark-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <img src="./images/code.png" class="w-100" alt="" />
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="articles">
+                <article>
+                  <hr />
+                  <div class="writer mb-3 d-flex align-items-center mb-3">
+                    <img
+                      src="https://miro.medium.com/fit/c/24/24/0*QKiFQLh7K8REhewS"
+                      alt=""
+                      class="rounded-circle me-3"
+                      width="30"
+                    />
+                    <a href="#" class="text-decoration-none text-black me-3"
+                      >Alexis Mangin
+                    </a>
+                    <a href="#" class="text-decoration-none text-black-50 small"
+                      >1 day ago</a
+                    >
+                  </div>
+                  <div class="row">
+                    <div class="col-9">
+                      <div class="d-flex h-100 flex-column">
+                        <a
+                          href="#"
+                          class="h4 d-block text-dark text-decoration-none fw-bold"
+                          >Storing Payload in PE File</a
+                        >
+                        <a
+                          href="#"
+                          class="text-decoration-none text-black fw-lighter font-serif"
+                        >
+                          Introduction What is PE File? The PE file format is a
+                          data structure that contains the information necessary
+                          for the Windows OS loader to manage the wrapped
+                          executable code. A PE is a file format developed</a
+                        >
+                        <div
+                          class="d-flex align-items-center mt-auto justify-content-between"
+                        >
+                          <div class=" ">
+                            <a
+                              href="#"
+                              class="btn btn-secondary rounded-pill btn-sm"
+                              >programming</a
+                            >
+                            <span>4 min read</span>
+                          </div>
+                          <i class="bi bi-bookmark-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <img src="./images/code.png" class="w-100" alt="" />
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="articles">
+                <article>
+                  <hr />
+                  <div class="writer mb-3 d-flex align-items-center mb-3">
+                    <img
+                      src="https://miro.medium.com/fit/c/24/24/0*QKiFQLh7K8REhewS"
+                      alt=""
+                      class="rounded-circle me-3"
+                      width="30"
+                    />
+                    <a href="detail.html" class="text-decoration-none text-black me-3"
+                      >Alexis Mangin
+                    </a>
+                    <a href="detail.html" class="text-decoration-none text-black-50 small"
+                      >1 day ago</a
+                    >
+                  </div>
+                  <div class="row">
+                    <div class="col-9">
+                      <div class="d-flex h-100 flex-column">
+                        <a
+                          href="detail.html"
+                          class="h4 d-block text-dark text-decoration-none fw-bold"
+                          >Storing Payload in PE File</a
+                        >
+                        <a
+                          href="detail.html"
+                          class="text-decoration-none text-black fw-lighter font-serif"
+                        >
+                          Introduction What is PE File? The PE file format is a
+                          data structure that contains the information necessary
+                          for the Windows OS loader to manage the wrapped
+                          executable code. A PE is a file format developed</a
+                        >
+                        <div
+                          class="d-flex align-items-center mt-auto justify-content-between"
+                        >
+                          <div class=" ">
+                            <a
+                              href="#"
+                              class="btn btn-secondary rounded-pill btn-sm"
+                              >programming</a
+                            >
+                            <span>4 min read</span>
+                          </div>
+                          <i class="bi bi-bookmark-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <img src="./images/code.png" class="w-100" alt="" />
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="articles">
+                <article>
+                  <hr />
+                  <div class="writer d-flex align-items-center mb-3">
+                    <img
+                      src="https://miro.medium.com/fit/c/24/24/0*QKiFQLh7K8REhewS"
+                      alt=""
+                      class="rounded-circle me-3"
+                      width="30"
+                    />
+                    <a href="#" class="text-decoration-none text-black me-3"
+                      >Alexis Mangin
+                    </a>
+                    <a href="#" class="text-decoration-none text-black-50 small"
+                      >1 day ago</a
+                    >
+                  </div>
+                  <div class="row">
+                    <div class="col-9">
+                      <div class="d-flex h-100 flex-column">
+                        <a
+                          href="#"
+                          class="h4 d-block text-dark text-decoration-none fw-bold"
+                          >Storing Payload in PE File</a
+                        >
+                        <a
+                          href="#"
+                          class="text-decoration-none text-black fw-lighter font-serif"
+                        >
+                          Introduction What is PE File? The PE file format is a
+                          data structure that contains the information necessary
+                          for the Windows OS loader to manage the wrapped
+                          executable code. A PE is a file format developed</a
+                        >
+                        <div
+                          class="d-flex align-items-center mt-auto justify-content-between"
+                        >
+                          <div class=" ">
+                            <a
+                              href="#"
+                              class="btn btn-secondary rounded-pill btn-sm"
+                              >programming</a
+                            >
+                            <span>4 min read</span>
+                          </div>
+                          <i class="bi bi-bookmark-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <img src="./images/code.png" class="w-100" alt="" />
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="articles">
+                <article>
+                  <hr />
+                  <div class="writer d-flex align-items-center mb-3">
+                    <img
+                      src="https://miro.medium.com/fit/c/24/24/0*QKiFQLh7K8REhewS"
+                      alt=""
+                      class="rounded-circle me-3"
+                      width="30"
+                    />
+                    <a href="#" class="text-decoration-none text-black me-3"
+                      >Alexis Mangin
+                    </a>
+                    <a href="#" class="text-decoration-none text-black-50 small"
+                      >1 day ago</a
+                    >
+                  </div>
+                  <div class="row">
+                    <div class="col-9">
+                      <div class="d-flex h-100 flex-column">
+                        <a
+                          href="#"
+                          class="h4 d-block text-dark text-decoration-none fw-bold"
+                          >Storing Payload in PE File</a
+                        >
+                        <a
+                          href="#"
+                          class="text-decoration-none text-black fw-lighter font-serif"
+                        >
+                          Introduction What is PE File? The PE file format is a
+                          data structure that contains the information necessary
+                          for the Windows OS loader to manage the wrapped
+                          executable code. A PE is a file format developed</a
+                        >
+                        <div
+                          class="d-flex align-items-center mt-auto justify-content-between"
+                        >
+                          <div class=" ">
+                            <a
+                              href="#"
+                              class="btn btn-secondary rounded-pill btn-sm"
+                              >programming</a
+                            >
+                            <span>4 min read</span>
+                          </div>
+                          <i class="bi bi-bookmark-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <img src="./images/code.png" class="w-100" alt="" />
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="articles">
+                <article>
+                  <hr />
+                  <div class="writer d-flex align-items-center mb-3">
+                    <img
+                      src="https://miro.medium.com/fit/c/24/24/0*QKiFQLh7K8REhewS"
+                      alt=""
+                      class="rounded-circle me-3"
+                      width="30"
+                    />
+                    <a href="#" class="text-decoration-none text-black me-3"
+                      >Alexis Mangin
+                    </a>
+                    <a href="#" class="text-decoration-none text-black-50 small"
+                      >1 day ago</a
+                    >
+                  </div>
+                  <div class="row">
+                    <div class="col-9">
+                      <div class="d-flex h-100 flex-column">
+                        <a
+                          href="#"
+                          class="h4 d-block text-dark text-decoration-none fw-bold"
+                          >Storing Payload in PE File</a
+                        >
+                        <a
+                          href="#"
+                          class="text-decoration-none text-black fw-lighter font-serif"
+                        >
+                          Introduction What is PE File? The PE file format is a
+                          data structure that contains the information necessary
+                          for the Windows OS loader to manage the wrapped
+                          executable code. A PE is a file format developed</a
+                        >
+                        <div
+                          class="d-flex align-items-center mt-auto justify-content-between"
+                        >
+                          <div class=" ">
+                            <a
+                              href="#"
+                              class="btn btn-secondary rounded-pill btn-sm"
+                              >programming</a
+                            >
+                            <span>4 min read</span>
+                          </div>
+                          <i class="bi bi-bookmark-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <img src="./images/code.png" class="w-100" alt="" />
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="articles">
+                <article>
+                  <hr />
+                  <div class="writer d-flex align-items-center mb-3">
+                    <img
+                      src="https://miro.medium.com/fit/c/24/24/0*QKiFQLh7K8REhewS"
+                      alt=""
+                      class="rounded-circle me-3"
+                      width="30"
+                    />
+                    <a href="#" class="text-decoration-none text-black me-3"
+                      >Alexis Mangin
+                    </a>
+                    <a href="#" class="text-decoration-none text-black-50 small"
+                      >1 day ago</a
+                    >
+                  </div>
+                  <div class="row">
+                    <div class="col-9">
+                      <div class="d-flex h-100 flex-column">
+                        <a
+                          href="#"
+                          class="h4 d-block text-dark text-decoration-none fw-bold"
+                          >Storing Payload in PE File</a
+                        >
+                        <a
+                          href="#"
+                          class="text-decoration-none text-black fw-lighter font-serif"
+                        >
+                          Introduction What is PE File? The PE file format is a
+                          data structure that contains the information necessary
+                          for the Windows OS loader to manage the wrapped
+                          executable code. A PE is a file format developed</a
+                        >
+                        <div
+                          class="d-flex align-items-center mt-auto justify-content-between"
+                        >
+                          <div class=" ">
+                            <a
+                              href="#"
+                              class="btn btn-secondary rounded-pill btn-sm"
+                              >programming</a
+                            >
+                            <span>4 min read</span>
+                          </div>
+                          <i class="bi bi-bookmark-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <img src="./images/code.png" class="w-100" alt="" />
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="mt-3 my-5">
+                <div class="row g-0">
+                  <div class="col-6">
+                    <h4 class="fw-bold">267K</h4>
+                    <p>Stories</p>
+                  </div>
+                  <div class="col-6">
+                    <h4 class="fw-bold">92K</h4>
+                    <p>Writers</p>
+                  </div>
+                </div>
+                <div class="user">
+                  <img
+                    src="https://miro.medium.com/fit/c/36/36/1*KwH2WmllTxzhbRYg3Yni-A@2x.jpeg"
+                    width="36"
+                    height="36"
+                    alt=""
+                  />
+                  <img
+                    alt="Yonatan Karp-Rudin"
+                    class="l dd bx nn pn hv"
+                    src="https://miro.medium.com/fit/c/36/36/1*xE5XDFNQ-TT1sXRy-EXj-w.jpeg"
+                    width="36"
+                    height="36"
+                  />
+                  <img
+                    alt="Vikram Gupta"
+                    class="l dd bx nn pn hv"
+                    src="https://miro.medium.com/fit/c/36/36/0*8TXgQvbu9doMZDEP"
+                    width="36"
+                    height="36"
+                  />
+                  <img
+                    alt="Soma"
+                    class="l dd bx nn pn hv"
+                    src="https://miro.medium.com/fit/c/36/36/1*ebn6gWVf6SZdt8-dDOpqvQ.png"
+                    width="36"
+                    height="36"
+                  />
+                  <img
+                    alt="Aravind Chowdary"
+                    class="l dd bx nn pn hv"
+                    src="https://miro.medium.com/fit/c/36/36/1*ixTqhMBeXLB7sAlDfC2icQ.jpeg"
+                    width="36"
+                    height="36"
+                  />
+                  <img
+                    alt="Tom Smykowski"
+                    class="l dd bx nn pn hv"
+                    src="https://miro.medium.com/fit/c/36/36/1*QBY4yLB-8qciSZmu9tYqpA.jpeg"
+                    width="36"
+                    height="36"
+                  />
+                  <img
+                    alt="Kacper Hernacki"
+                    class="l dd bx nn pn hv"
+                    src="https://miro.medium.com/fit/c/36/36/1*17VpCEkCeCG8d8nd3lSfVw@2x.jpeg"
+                    width="36"
+                    height="36"
+                  />
+                  <img
+                    alt="Dimterion"
+                    class="l dd bx nn pn hv"
+                    src="https://miro.medium.com/fit/c/36/36/1*SlmjyzYzl6Ii9UjmkVzn3A.png"
+                    width="36"
+                    height="36"
+                  />
+                </div>
+                <hr />
+
+                <div>
+                  <a href="#" class="text-decoration-none text-success small"
+                    >See More</a
+                  >
+                </div>
+              </div>
+              <div class="position-sticky" style="top: 30px">
+                <div class="realtive-topic mb-5">
+                  <p class="mt-5 my-3 fw-bold">Relative Topice</p>
+                  <div class="">
+                    <a
+                      href="#"
+                      class="btn btn-secondary rounded-pill mb-2 small"
+                    >
+                      Software Development
+                    </a>
+                    <a
+                      href="#"
+                      class="btn btn-secondary rounded-pill mb-2 small"
+                    >
+                      Java Script
+                    </a>
+                    <a
+                      href="#"
+                      class="btn btn-secondary rounded-pill mb-2 small"
+                    >
+                      Software Engineering
+                    </a>
+                    <a
+                      href="#"
+                      class="btn btn-secondary rounded-pill mb-2 small"
+                    >
+                      Python
+                    </a>
+                    <a
+                      href="#"
+                      class="btn btn-secondary rounded-pill mb-2 small"
+                    >
+                      Data Science
+                    </a>
+                    <a
+                      href="#"
+                      class="btn btn-secondary rounded-pill mb-2 small"
+                    >
+                      Web Development
+                    </a>
+                    <a
+                      href="#"
+                      class="btn btn-secondary rounded-pill mb-2 small"
+                    >
+                      React
+                    </a>
+                    <a
+                      href="#"
+                      class="btn btn-sm btn-secondary rounded-pill m-2 small"
+                    >
+                      Coding
+                    </a>
+                    <a
+                      href="#"
+                      class="btn btn-sm btn-secondary rounded-pill m-2 small"
+                    >
+                      Thenology
+                    </a>
+                  </div>
+                </div>
+                <div class="top-writers">
+                  <p class="fw-bold">Top Writers</p>
+                  <div class="writer mb-3">
+                    <div class="row g-2 align-items-center">
+                      <div class="col-2 align-self-lg-start">
+                        <div class="me-2">
+                          <img
+                            src="https://miro.medium.com/fit/c/32/32/0*u9Ha3uTCjEmW_3gn.gif"
+                            class="w-100 rounded-circle"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-7">
+                        <span class="fw-bold"> javinpaul</span>
+                        <p class="small text-truncate">
+                          I am Java programmer, blogger, working on Java,...
+                        </p>
+                      </div>
+                      <div class="col-3">
+                        <a href="#" class="btn btn-sm btn-success rounded-pill"
+                          >Follow</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="writer mb-3">
+                    <div class="row g-2 align-items-center">
+                      <div class="col-2 align-self-lg-start">
+                        <div class="me-2">
+                          <img
+                            src="https://miro.medium.com/fit/c/32/32/0*u9Ha3uTCjEmW_3gn.gif"
+                            class="w-100 rounded-circle"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-7">
+                        <span class="fw-bold"> javinpaul</span>
+                        <p class="small text-truncate">
+                          I am Java programmer, blogger, working on Java,...
+                        </p>
+                      </div>
+                      <div class="col-3">
+                        <a href="#" class="btn btn-sm btn-success rounded-pill"
+                          >Follow</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="writer mb-3">
+                    <div class="row g-2 align-items-center">
+                      <div class="col-2 align-self-lg-start">
+                        <div class="me-2">
+                          <img
+                            src="https://miro.medium.com/fit/c/32/32/0*u9Ha3uTCjEmW_3gn.gif"
+                            class="w-100 rounded-circle"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-7">
+                        <span class="fw-bold"> javinpaul</span>
+                        <p class="small text-truncate">
+                          I am Java programmer, blogger, working on Java,...
+                        </p>
+                      </div>
+                      <div class="col-3">
+                        <a href="#" class="btn btn-sm btn-success rounded-pill"
+                          >Follow</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="writer mb-3">
+                    <div class="row g-2 align-items-center">
+                      <div class="col-2 align-self-lg-start">
+                        <div class="me-2">
+                          <img
+                            src="https://miro.medium.com/fit/c/32/32/0*u9Ha3uTCjEmW_3gn.gif"
+                            class="w-100 rounded-circle"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-7">
+                        <span class="fw-bold"> javinpaul</span>
+                        <p class="small text-truncate">
+                          I am Java programmer, blogger, working on Java,...
+                        </p>
+                      </div>
+                      <div class="col-3">
+                        <a href="#" class="btn btn-sm btn-success rounded-pill"
+                          >Follow</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="writer mb-3">
+                    <div class="row g-2 align-items-center">
+                      <div class="col-2 align-self-lg-start">
+                        <div class="me-2">
+                          <img
+                            src="https://miro.medium.com/fit/c/32/32/0*u9Ha3uTCjEmW_3gn.gif"
+                            class="w-100 rounded-circle"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-7">
+                        <span class="fw-bold"> javinpaul</span>
+                        <p class="small text-truncate">
+                          I am Java programmer, blogger, working on Java,...
+                        </p>
+                      </div>
+                      <div class="col-3">
+                        <a href="#" class="btn btn-sm btn-success rounded-pill"
+                          >Follow</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="writer mb-3">
+                    <div class="row g-2 align-items-center">
+                      <div class="col-2 align-self-lg-start">
+                        <div class="me-2">
+                          <img
+                            src="https://miro.medium.com/fit/c/32/32/0*u9Ha3uTCjEmW_3gn.gif"
+                            class="w-100 rounded-circle"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-7">
+                        <span class="fw-bold"> javinpaul</span>
+                        <p class="small text-truncate">
+                          I am Java programmer, blogger, working on Java,...
+                        </p>
+                      </div>
+                      <div class="col-3">
+                        <a href="#" class="btn btn-sm btn-success rounded-pill"
+                          >Follow</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="writer mb-3">
+                    <div class="row g-2 align-items-center">
+                      <div class="col-2 align-self-lg-start">
+                        <div class="me-2">
+                          <img
+                            src="https://miro.medium.com/fit/c/32/32/0*u9Ha3uTCjEmW_3gn.gif"
+                            class="w-100 rounded-circle"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-7">
+                        <span class="fw-bold"> javinpaul</span>
+                        <p class="small text-truncate">
+                          I am Java programmer, blogger, working on Java,...
+                        </p>
+                      </div>
+                      <div class="col-3">
+                        <a href="#" class="btn btn-sm btn-success rounded-pill"
+                          >Follow</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="my-4">
+                  <p class="text-black-50">Visit the archive</p>
+                  <div class="small">
+                    <a href="#" class="text-decoration-none m-1 text-black-50"
+                      >Help</a
+                    >
+                    <a href="#" class="text-decoration-none m-1 text-black-50"
+                      >Status</a
+                    >
+                    <a href="#" class="text-decoration-none m-1 text-black-50"
+                      >Writers</a
+                    >
+                    <a href="#" class="text-decoration-none m-1 text-black-50"
+                      >Blogs</a
+                    >
+                    <a href="#" class="text-decoration-none m-1 text-black-50"
+                      >Privacy</a
+                    >
+                    <a href="#" class="text-decoration-none m-1 text-black-50"
+                      >Terms</a
+                    >
+                    <a href="#" class="text-decoration-none m-1 text-black-50"
+                      >About</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

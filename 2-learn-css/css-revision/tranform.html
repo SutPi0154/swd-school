@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        width: 100%;
+        height: 700px;
+        margin: 20dpx;
+        border: 2px solid black;
+        overflow: hidden;
+        padding: 200px;
+        perspective: 1000px;
+      }
+      /* img{
+            width: 500px;
+            display: block;
+            transform: translateX(-90%) ;
+            transition: 1s;
+            transform: rotateZ(46deg);
+            transform: scale(1.3);
+            transform: skewY(-34deg);
+        }
+        img:hover{
+            transform: translateX(0);
+        } */
+
+      .img {
+        width: 450px;
+
+        clip-path: polygon(
+          0% 15%,
+          15% 15%,
+          15% 0%,
+          85% 0%,
+          85% 15%,
+          100% 15%,
+          100% 85%,
+          85% 85%,
+          85% 100%,
+          15% 100%,
+          15% 85%,
+          0% 85%
+        );
+        /* position: absolute;
+            box-shadow: 0 0 14px;
+            transform: rotatex(15deg); */
+      }
+      /* .img1{
+            transform: rotate(0deg);
+        }
+        .img2{
+            transform: rotate(20deg);
+        }
+        .img3{
+            transform: rotate(40deg);
+        } */
+      /* .img:nth-child(1){
+            transform: rotate(0deg);
+        }
+        .img:nth-child(2){
+            transform: rotate(20deg);
+        }
+        .img:nth-child(3){
+            transform: rotate(40deg);
+        } */
+    </style>
+  </head>
+
+  <body>
+    <div class="box">
+      <img src="./images/ffgf.jpg" class="img" alt="" />
+    </div>
+  </body>
+</html>

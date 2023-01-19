@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link
+    rel="stylesheet"
+    href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+  />
+  <style>
+    .box {
+      margin: 100px;
+      width: 500px;
+      height: 400px;
+      background-color: red;
+      position: relative;
+    }
+    .box::after{
+        content: url(./images/158e82cfc3705b48001e8e6e83aebb46be5b0859.jpg);
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+  </style>
+  <body>
+    <div class="box"></div>
+
+    
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Moon+Dance&family=Roboto+Condensed&family=Rubik+Bubbles&display=swap");
+    </style>
+
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="m-3" id="output"></div>
+        <div class="col-12">
+          <div
+            style="max-width: 600px; right: 0; left: 0;bottom: 30px;"
+            class="border rounded position-fixed mx-auto row g-3 mt-3 p-3 mb-3"
+          >
+            <div class="col-12">
+              <div class="d-flex justify-content-between">
+                <label for="" class="form-label">Say Something</label>
+                <div class="">count: <span id="count"></span></div>
+              </div>
+              <textarea
+                name=""
+                class="form-control"
+                id="text"
+                rows="5"
+              ></textarea>
+            </div>
+            <div class="col">
+              <div class="">
+                <label for="" class="form-label">Select Color</label>
+                <input
+                  type="color"
+                  class="form-control form-control-color w-100"
+                  name=""
+                  id="color"
+                />
+              </div>
+            </div>
+            <div class="col">
+              <label for="" class="form-label">Font Size</label>
+              <input
+                type="range"
+                min="0"
+                max="100"
+                class="form-range"
+                name=""
+                id="fs"
+              />
+            </div>
+            <div class="col">
+              <label for="">font family</label>
+              <select name="" class="form-select" id="fontFamily">
+                <option value="">form select</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/text.js"></script>
+  </body>
+</html>

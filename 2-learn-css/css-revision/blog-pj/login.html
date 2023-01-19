@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/app.css" />
+  </head>
+  <body>
+    <main class="bg-secondary">
+      <div class="container">
+        <div class="row min-vh-100 justify-content-center align-items-center">
+          <div class="col-md-6 col-lg-5">
+            <div class="text-center">
+              <a class="text-dark h2" href="index.html">
+                <i class="bi bi-journal-code"></i>
+              </a>
+              <h2>My Blog</h2>
+              <div class="bg-white p-3 mt-4">
+                <h4 class="text-center fw-bold">Create an Account</h4>
+                <p class="text-black-50 text-center mb-5">
+                  Create an account and read or posts...
+                </p>
+                <form action="">
+                  <div class="mb-3 px-4 text-start">
+                    <label for="email" class="form-label ps-2">Email</label>
+                    <input
+                      type="email"
+                      class="form-control bg-secondary"
+                      name="email"
+                      id="email"
+                    />
+                  </div>
+                  <div class="mb-5 px-4 text-start">
+                    <label for="phone" class="form-label ps-2">Phone</label>
+                    <input
+                      type="number"
+                      class="form-control bg-secondary"
+                      name="phone"
+                      id="phone"
+                    />
+                  </div>
+                  <div class="mb-3 px-4 text-start">
+                    <label for="password" class="form-label ps-2"
+                      >Password</label
+                    >
+                    <div class="input-group">
+                      <input
+                        type="password"
+                        class="form-control bg-secondary"
+                        name="password"
+                        id="password"
+                      />
+                      <button class="btn btn-secondary rounded-end">
+                        <i class="bi bi-eye"></i>
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="my-5">
+                    <button
+                      type="submit"
+                      class="bi mx-auto bi-person-plus btn btn-primary w-75 d-block"
+                    >
+                      Sign in
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
