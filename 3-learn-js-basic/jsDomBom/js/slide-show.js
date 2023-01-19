@@ -11,8 +11,8 @@ const createCarousel = (photoList) => {
   let indicators = " ";
   photoList.forEach((photo, index) => {
     slides += `
-    <div class="carousel-item ${index === 0 && "active"}">
-     <img src="${photo}" class="d-block w-100 " alt="...">
+    <div class="carousel-item  ${index === 0 && "active"}">
+     <img src="${photo}" class="d-block w-50 mx-auto " alt="...">
   </div>`;
     indicators += `
     <button type="button" ${
