@@ -7,20 +7,22 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Area Claculator</h1>
+    <h1>Area Calculator</h1>
     <div class="">
       <h4>Result : <span id="result"></span></h4>
       <button id="store">Store</button>
       <button id="clear">Clear</button>
     </div>
     <br />
-    <div class="">
-      <input type="text" placeholder="width" id="width" />
-      <input type="text" placeholder="breadth" id="breadth" />
-      <button id="calculate">Claculate</button>
-    </div>
+    <form action="" >
+      <div class="">
+        <input type="number" required placeholder="width" id="width" />
+        <input type="number" required placeholder="breadth" id="breadth" />
+        <button id="calculate">Calculate</button>
+      </div>
+    </form>
     <br />
     <ul id="records"></ul>
-    <script src="./area.js"></script>
+    <script src="./js/area.js"></script>
   </body>
 </html>
