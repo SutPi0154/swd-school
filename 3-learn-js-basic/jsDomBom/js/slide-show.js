@@ -80,3 +80,27 @@ createSlideShow.addEventListener("click", () => {
   );
   // createCarousel();
 });
+uploadUI.addEventListener("dragover", (event) => {
+  event.preventDefault();
+});
+
+uploadUI.addEventListener("drop", (event) => {
+  event.preventDefault();
+  console.log(event.dataTransfer.files);
+
+  [...event.dataTransfer.files].forEach((file) => {
+    const img = new Image();
+
+    const reader = new FileReader();
+    reader.addEventListener("load", (event) => {
+      console.log(event.target);
+      img.src = event.target.result;
+      console.log(img);
+      // document.body.append(img);
+      img.classList.add("photo");
+
+      photos.append(img);
+    });
+    reader.readAsDataURL(file);
+  });
+});
