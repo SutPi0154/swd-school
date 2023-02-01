@@ -41,3 +41,7 @@
 //   console.log(i,'loop');
 // }
 // console.log(i);
+
+const run = () => console.log("I am run");
+
+setTimeout(run, 3000);
