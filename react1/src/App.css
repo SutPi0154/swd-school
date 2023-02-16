@@ -1,11 +1,1 @@
-.card-app {
-  display: flex;
-  gap: 50px;
-}
-
-.card {
-  padding: 20px;
-  border: 1px solid black;
-  overflow: hidden;
-  width: 300px;
-}
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
